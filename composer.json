@@ -1,0 +1,29 @@
+{
+    "name": "itiden/composer-path",
+    "authors": [
+        {
+            "name": "Andreas Bergqvist",
+            "email": "andreas@itiden.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "itiden/section1": "*@dev",
+        "itiden/section2": "*@dev",
+        "itiden/shared": "*@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "section1"
+        },
+        {
+            "type": "path",
+            "url": "section2"
+        },
+        {
+            "type": "path",
+            "url": "shared"
+        }
+    ]
+}

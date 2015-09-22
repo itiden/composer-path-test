@@ -1,0 +1,124 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ab54fb7da4291e24a703fa4acbaaada0",
+    "content-hash": "a318dc4291f7c0e7ad905b0cf58fa08c",
+    "packages": [
+        {
+            "name": "fzaninotto/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "c8097f5f5db48aa32ae067b84aee4c0fc419b30c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/c8097f5f5db48aa32ae067b84aee4c0fc419b30c",
+                "reference": "c8097f5f5db48aa32ae067b84aee4c0fc419b30c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2015-09-18 14:17:14"
+        },
+        {
+            "name": "itiden/section1",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "section1",
+                "reference": "",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Itiden\\": "src/"
+                }
+            }
+        },
+        {
+            "name": "itiden/section2",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "section2",
+                "reference": "",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Itiden\\": "src/"
+                }
+            }
+        },
+        {
+            "name": "itiden/shared",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "shared",
+                "reference": "",
+                "shasum": null
+            },
+            "require": {
+                "fzaninotto/faker": "*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Itiden\\": "src/"
+                }
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "itiden/section1": 20,
+        "itiden/section2": 20,
+        "itiden/shared": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

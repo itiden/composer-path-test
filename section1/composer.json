@@ -1,0 +1,6 @@
+{
+	"name": "itiden/section1",
+	"autoload": {
+        "psr-4": {"Itiden\\": "src/"}
+    }
+}

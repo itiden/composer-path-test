@@ -1,0 +1,9 @@
+{
+	"name": "itiden/shared",
+	"autoload": {
+        "psr-4": {"Itiden\\": "src/"}
+    },
+    "require": {
+    	"fzaninotto/faker": "*@dev"
+    }
+}
